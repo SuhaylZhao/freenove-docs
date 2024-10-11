@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freenove-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-11 15:49+0800\n"
+"POT-Creation-Date: 2024-10-11 16:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -22,17 +22,17 @@ msgstr ""
 
 #: ../../source/kits/kit01/index.rst:14
 msgid "Contents:"
-msgstr "这里是中文"
+msgstr "目录"
 
-#: ../../source/kits/kit01/index.rst:7 0553290d4e7e49a4b14ff4fdadb8aadc
+#: ../../source/kits/kit01/index.rst:7 2d78a4bc60334371a83aa03ff7c3dc9c
 msgid "FNK0050 dog"
-msgstr "这里是中文"
+msgstr "机器狗"
 
-#: ../../source/kits/kit01/index.rst:9 499cfa8661d3487c96824362beec4f18
-msgid "这里是中文"
+#: ../../source/kits/kit01/index.rst:9 1ad9b755afa14ea986b0a06e32dfa4a8
+msgid ""
 "Add your content using ``reStructuredText`` syntax. See the "
 "`reStructuredText <https://www.sphinx-"
 "doc.org/en/master/usage/restructuredtext/index.html>`_ documentation for "
 "details."
-msgstr "这里是中文"
+msgstr "这是什么 `引用 <https://www.freenove.com>`_ "
 
