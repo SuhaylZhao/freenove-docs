@@ -31,3 +31,8 @@ python:
      path: .
 
 formats: all
+
+submodules:
+   include:all
+
+   

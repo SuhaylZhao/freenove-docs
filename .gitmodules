@@ -1,0 +1,3 @@
+[submodule "docs/source/sub2"]
+	path = docs/source/sub2
+	url = https://github.com/SuhaylZhao/sub2
