@@ -33,6 +33,5 @@ python:
 formats: all
 
 submodules:
-   include:all
+   include: all
 
-   
