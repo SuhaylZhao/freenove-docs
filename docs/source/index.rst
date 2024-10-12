@@ -17,4 +17,5 @@ documentation for details.
 
    kits/index
    sub/index
+   sub2/index
 
