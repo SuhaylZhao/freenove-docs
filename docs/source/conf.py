@@ -26,8 +26,8 @@ release = 'v1.0.0'
 # extensions = ['recommonmark','sphinx_markdown_tables']
 extensions = [
     'myst_parser',
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
+    # 'sphinx.ext.duration',
+    # 'sphinx.ext.doctest',
     ]
 
 source_suffix = {
