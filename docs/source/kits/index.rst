@@ -11,5 +11,13 @@ kits
    :caption: Contents:
    
    kit01/index
+   kit01/index2
+   kit01/blink   
    kit02/index
 
+Welcome 
+*******
+Thank you for choosing Freenove products!
+
+Get Support and Offer Input
+***************************

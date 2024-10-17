@@ -3,27 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
-
-
-   
-freenove documentation
+FNK0050 dog copy
 ===========================
-   | 这是里Freenove的产品文档
-   | 123
 
-Welcome 
-***********
+Add your content using ``reStructuredText`` syntax. See the
+`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+documentation for details.
 
-Thank you for choosing Freenove products!
-
-寻找产品和说明书
-********************
-
-点击下方的链接寻找你的产品和说明书 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Home
+   :caption: Contents:
+   
 
-   products/products.md
