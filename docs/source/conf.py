@@ -47,7 +47,7 @@ exclude_patterns = []
 
 html_static_path = ['_static']
 
-
+favicon_url = "_static/images/freenove-logo.jpg"
 html_logo = "_static/images/freenove-logo.jpg"
 # html_theme = 'alabaster'
 
