@@ -6,23 +6,20 @@ RaspberryPi Series
 
 .. include:: raspberrypi.rst
 
+RaspberryPi pico(w) Series 
+================================================================
+
+ESP32 Series 
+================================================================
+ESP32-S3 Series 
+================================================================
+ESP8266 Series 
+================================================================
+
+BBC micro:bit Series 
+================================================================
 
 Arduino-Compatible Series 
 ================================================================
 
 .. include:: arduino.rst
-
-
-
-## ESP32 Series 
-
-## ESP32-S3 Series 
-
-## ESP8266 Series 
-
-## RaspberryPi pico(w) Series 
-
-## BBC micro:bit Series 
-
-## Arduino Series 
-

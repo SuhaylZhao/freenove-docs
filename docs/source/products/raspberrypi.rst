@@ -7,7 +7,7 @@ Starter kits
 
 .. table:: Starter kit
     :width: 100%
-    :align: center
+    :class: product-table
 
     ====================================    ===============================================================     ==============================================================================
     Image                                   SKU                                                                 Name
@@ -23,26 +23,26 @@ Starter kits
 
 
 .. |FNK0019.MAIN| image:: ../_static/products/FNK0019.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0020.MAIN| image:: ../_static/products/FNK0020.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0022.MAIN| image:: ../_static/products/FNK0022.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0023.MAIN| image:: ../_static/products/FNK0023.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0024.MAIN| image:: ../_static/products/FNK0024.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0025.MAIN| image:: ../_static/products/FNK0025.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0066.MAIN| image:: ../_static/products/FNK0066.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 
 
 Robotics kits
 ----------------------------------------------------------------
 .. table:: Robotics kit
     :width: 100%
-    :align: center
+    :class: product-table
 
     ====================================    ===============================================================     ==============================================================================
     Image                                   SKU                                                                 Name
@@ -58,19 +58,19 @@ Robotics kits
 
 
 .. |FNK0021.MAIN| image:: ../_static/products/FNK0021.MAIN.jpg
-    :height: 120px
+    :class: product-image
 .. |FNK0036.MAIN| image:: ../_static/products/FNK0036.MAIN.jpg
-    :height: 120px
+    :class: product-image
 .. |FNK0043.MAIN| image:: ../_static/products/FNK0043.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0043B.MAIN| image:: ../_static/products/FNK0043B.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0050.MAIN| image:: ../_static/products/FNK0050.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0052.MAIN| image:: ../_static/products/FNK0052.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 .. |FNK0077.MAIN| image:: ../_static/products/FNK0077.MAIN.jpg    
-    :height: 120px
+    :class: product-image
 
 
 

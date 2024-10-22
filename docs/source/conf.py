@@ -96,3 +96,8 @@ intersphinx_mapping = {
     "rpi-starter-kit": ("https://docs.freenove.com/projects/rpi-starter-kit/en/latest/", None),
 }
 intersphinx_disabled_reftypes = ["*"]
+
+
+def setup(app):
+
+    app.add_css_file("css/custom.css")
