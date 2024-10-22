@@ -5,8 +5,6 @@
 Starter kits
 ----------------------------------------------------------------
 
-:doc:`FNK0020 <rpi-starter-kit:fnk0020/fnk0020>`
-
 .. table:: Starter kit
     :width: 100%
     :align: center
