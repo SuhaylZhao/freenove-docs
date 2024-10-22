@@ -47,8 +47,8 @@ exclude_patterns = []
 
 html_static_path = ['_static']
 
-favicon_url = "_static/images/freenove-logo.jpg"
-html_logo = "_static/images/freenove-logo.jpg"
+favicon_url = "_static/images/freenove-logo.png"
+html_logo = "_static/images/freenove-logo.png"
 # html_theme = 'alabaster'
 
 html_theme = 'sphinx_rtd_theme'
@@ -58,7 +58,7 @@ html_theme_options = {
     'navigation_depth': -1,
     'version_selector': True,
     'includehidden': True,
-    'style_nav_header_background': '#FFF',
+    # 'style_nav_header_background': '#FFF',
 
 }
 
