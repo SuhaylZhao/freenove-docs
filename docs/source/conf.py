@@ -56,7 +56,8 @@ html_theme_options = {
     'collapse_navigation': False,
     'logo_only': True,
     'navigation_depth': -1,
-    'flyout_display': 'attached',
+    'version_selector': True,
+    'includehidden': True,
     'style_nav_header_background': '#FFF',
 
 }
