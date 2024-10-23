@@ -20,7 +20,7 @@ Thank you for choosing Freenove products!
 .. tip::
    * :red:`製品品質の問題`
    * :red:`テクニカルサポート`
-   * :red:`その他の質問/サポート`
+   * :red:`その他の質問 / サポート`
 
    | お問い合わせは support@freenove.com までお願いします。
    | 当社は自社製品に対して責任を負います。
