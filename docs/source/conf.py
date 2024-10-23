@@ -25,7 +25,7 @@ release = 'v1.0.0'
 
 # extensions = ['recommonmark','sphinx_markdown_tables']
 extensions = [
-    'myst_parser',
+    # 'myst_parser',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     "sphinx.ext.extlinks",
@@ -34,8 +34,8 @@ extensions = [
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'markdown',
-    '.md': 'markdown',
+    # '.txt': 'markdown',
+    # '.md': 'markdown',
 }
 
 templates_path = ['_templates']
