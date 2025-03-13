@@ -30,6 +30,7 @@ extensions = [
     'sphinx.ext.doctest',
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
+    "sphinx.ext.extlinks",
 ]
 
 source_suffix = {
@@ -58,7 +59,7 @@ html_theme_options = {
     'navigation_depth': -1,
     'version_selector': True,
     'includehidden': True,
-    # 'style_nav_header_background': '#FFF',
+    # 'style_nav_header_background': '#E3E3E3',
 
 }
 
@@ -76,24 +77,25 @@ gettext_uuid = True  # optional.
 
 rst_prolog = """
 .. include:: <s5defs.txt>
+.. include:: ../_static/style/custom-style.txt
 """
 
 html_css_files = [
     "css/color-roles.css",
+    "css/custom.css"
 ]
 
+
 extlinks = {
-    "tutorial-link": (
-        "rpi-starter-kit/%s",
-        "tutorial-link%s"
+    "Freenove": (
+        "https://docs.freenove.com/projects/%s/en/latest/", None
     )
 }
 
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
 
-
 intersphinx_mapping = {
-    "rpi-starter-kit": ("https://docs.freenove.com/projects/rpi-starter-kit/en/latest/", None),
+    # "fnk0017": ("https://docs.freenove.com/projects/fnk0017/en/latest/", None), 
 }
 intersphinx_disabled_reftypes = ["*"]
 
