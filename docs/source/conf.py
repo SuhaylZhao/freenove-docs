@@ -84,7 +84,9 @@ html_css_files = [
     "css/color-roles.css",
     "css/custom.css"
 ]
-
+html_js_files = [
+    'https://raw.githubusercontent.com/SuhaylZhao/freenove-docs-nav/refs/heads/main/docs/source/_static/js/navigationStyle.js'
+]
 
 extlinks = {
     "Freenove": (
