@@ -51,12 +51,8 @@ exclude_patterns = []
 
 html_static_path = ['_static']
 
-favicon_url = "_static/images/freenove-logo.png"
-# html_favicon = "_static/images/freenove-logo.png"
-# html_logo = "_static/images/freenove-logo.png"
 html_favicon = "https://cdn.jsdelivr.net/gh/SuhaylZhao/freenove-docs-nav@main/docs/source/_static/images/freenove_logo_tag_icon.png"
 html_logo = "https://cdn.jsdelivr.net/gh/SuhaylZhao/freenove-docs-nav@main/docs/source/_static/images/freenove_logo_home_button.png"
-# html_theme = 'alabaster'
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
@@ -65,9 +61,10 @@ html_theme_options = {
     'navigation_depth': -1,
     'includehidden': True,
     'flyout_display': 'attached',
-    'version_selector': False,
+    'version_selector': True,
     'prev_next_buttons_location': 'both',
     'style_external_links': True,
+    'language_selector': True,
     # 'style_nav_header_background': '#E3E3E3',
 
 }
