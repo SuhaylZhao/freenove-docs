@@ -65,6 +65,8 @@ html_theme_options = {
     'navigation_depth': -1,
     'version_selector': True,
     'includehidden': True,
+    'flyout_display': 'hidden',
+    'version_selector': False,
     # 'style_nav_header_background': '#E3E3E3',
 
 }
