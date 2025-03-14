@@ -2,6 +2,8 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+
+from datetime import datetime
 import os
 import pathlib
 import sys
@@ -16,7 +18,7 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'freenove-docs'
-copyright = '2024, suhayl'
+copyright = '2016 - ' + str(datetime.now().year) + 'a    \t Need help? Contact support@freenove.com'
 author = 'suhayl'
 release = 'v1.0.0'
 
@@ -31,6 +33,7 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     "sphinx.ext.extlinks",
+    # "sphinx_favicon"
 ]
 
 source_suffix = {
@@ -49,7 +52,10 @@ exclude_patterns = []
 html_static_path = ['_static']
 
 favicon_url = "_static/images/freenove-logo.png"
-html_logo = "_static/images/freenove-logo.png"
+# html_favicon = "_static/images/freenove-logo.png"
+# html_logo = "_static/images/freenove-logo.png"
+html_favicon = "https://cdn.jsdelivr.net/gh/SuhaylZhao/freenove-docs-nav@main/docs/source/_static/images/freenove_logo_tag_icon.png"
+html_logo = "https://cdn.jsdelivr.net/gh/SuhaylZhao/freenove-docs-nav@main/docs/source/_static/images/freenove_logo_home_button.png"
 # html_theme = 'alabaster'
 
 html_theme = 'sphinx_rtd_theme'
@@ -82,10 +88,11 @@ rst_prolog = """
 
 html_css_files = [
     "css/color-roles.css",
-    "css/custom.css"
+    "css/custom.css",
+    'https://cdn.jsdelivr.net/gh/SuhaylZhao/freenove-docs-nav@main/docs/source/_static/css/navigationStyle.css',
 ]
 html_js_files = [
-    'https://raw.githubusercontent.com/SuhaylZhao/freenove-docs-nav/refs/heads/main/docs/source/_static/js/navigationStyle.js'
+    'https://cdn.jsdelivr.net/gh/SuhaylZhao/freenove-docs-nav@main/docs/source/_static/js/custom.js',
 ]
 
 extlinks = {
