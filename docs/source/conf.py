@@ -18,7 +18,7 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'freenove-docs'
-copyright = '2016 - ' + str(datetime.now().year) + 'a    \t Need help? Contact support@freenove.com'
+copyright = '2016 - 2025'
 author = 'suhayl'
 release = 'v1.0.0'
 
@@ -67,6 +67,8 @@ html_theme_options = {
     'includehidden': True,
     'flyout_display': 'hidden',
     'version_selector': False,
+    'prev_next_buttons_location': 'both',
+    'style_external_links': True,
     # 'style_nav_header_background': '#E3E3E3',
 
 }
